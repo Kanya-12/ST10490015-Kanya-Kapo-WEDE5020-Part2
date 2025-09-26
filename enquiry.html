@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquiry - Pick n Pay Retail</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header>
+    <h1>Pick n Pay Retail</h1>
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html" class="active">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </ul>
+    </nav>
+</header>
+
+<!--Main-->
+<main>
+    <img src="Images/PicknPayLogo.svg" alt="Pick-n-Pay" width="100">
+    <section class="hero">
+        <h2>Enquiry Form</h2>
+        <form action="submit_enquiry.php" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Enquiry:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Pick n Pay Retail</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
