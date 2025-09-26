@@ -162,5 +162,3 @@ Pick n Pay. (2024) Integrated Annual Report 2024. Available at: https://www.pnp.
 Statista. (2023) E-commerce share of retail sales in South Africa 2017-2023. Available at: https://www.statista.com/ [Accessed on: 15 September 2025].
 
 NielsenIQ. (2022) Retail & Consumer Trends South Africa 2022. Available at: https://www.nielseniq.com/ [Accessed on: 12 September 2025].
-
-This section outlines how to structure and include CSS for the Pick n Pay site. Use a modular, maintainable approach with a base stylesheet and component-specific files (e.g., base.css, layout.css, components.css, forms.css).
